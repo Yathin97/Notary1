@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Notary, Welcome to notary</title>
+    <title>Notary, Welcome to Notary</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="script.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-    <script src="learner.js"></script>
-
+    <script src="learner.js" defer></script>
 </head>
   <body>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <img src="NotoryLogowhiteMed.png" alt="NotaryImage" class="responsive">
+                <img src="NotoryLogowhiteMed.png" alt="Notary Image" class="responsive img-fluid">
                 <div class="card mb-4">
                     <h2 class="card-header" id="filename">Book Title</h2>
                     <div class="card-body">
@@ -26,12 +25,12 @@
                         </div>
                     </div>
                     <div class="card-footer text-muted">
-                        <a href="https://en.wikipedia.org/wiki/India" target="_blank">Learn more from wikipedia</a>                        
+                        <a href="https://en.wikipedia.org/wiki/India" target="_blank">Learn more from Wikipedia</a>                        
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 ">
+            <div class="col-md-4">
                 <div class="card my-4">
                     <h5 class="card-header">Search</h5>
                     <div class="card-body">
@@ -50,16 +49,16 @@
                         <div class="row">
                             <div class="col">
                                 <ul class="list-unstyled mb-0">
-                                <li> <a href="#" onclick="loadBook('Harrypotter.txt','Harry Potter')">Harry Potter</a></li>
-                                <li> <a href="#" onclick="loadBook('AliceInWonderland.txt','Alice in Wonderland')">Alice in wonderland</a></li>
-                                <li> <a href="#" onclick="loadBook('LOTR.txt','LORD OF RINGS')">Lord of rings</a></li>
+                                <li><a href="#" onclick="loadBook('Harrypotter.txt','Harry Potter')">Harry Potter</a></li>
+                                <li><a href="#" onclick="loadBook('AliceInWonderland.txt','Alice in Wonderland')">Alice in Wonderland</a></li>
+                                <li><a href="#" onclick="loadBook('LOTR.txt','Lord of the Rings')">Lord of the Rings</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card my-4">
-                    <h5 class="card-header">Most used words</h5>
+                    <h5 class="card-header">Most Used Words</h5>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-12">
@@ -71,11 +70,11 @@
                     </div>
                 </div>
                 <div class="card my-4">
-                    <h5 class="card-header">Last used words</h5>
+                    <h5 class="card-header">Least Used Words</h5>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-12">
-                                <ul class="list-unstyled mb-0" id="eastUsed">
+                                <ul class="list-unstyled mb-0" id="leastUsed">
                                     
                                 </ul>
                             </div>
@@ -83,7 +82,7 @@
                     </div>
                 </div>
                 <div class="card my-4">
-                    <h5 class="card-header">Document stats</h5>
+                    <h5 class="card-header">Document Stats</h5>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-12">
